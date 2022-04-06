@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Project/Scenes/MainMenu.unity
+    guid: 912bb8aa853174049891bafd75e26671
+  - enabled: 1
+    path: Assets/Project/Scenes/Basketball Court.unity
+    guid: 84e07eaebb2fd40cd97959eb64411908
+  - enabled: 1
+    path: Assets/Project/Scenes/PauseMenu.unity
+    guid: 51b3b4daab99f41f686b04a2a9be4dde
+  - enabled: 1
+    path: Assets/Project/Scenes/VictoryScreen.unity
+    guid: ead9819a594fc4ba890f03d670e6fab2
+  - enabled: 1
+    path: Assets/Project/Scenes/GameOverScreen.unity
+    guid: 6004fdf4c16a447a1b6169f3b522df8f
   m_configObjects: {}

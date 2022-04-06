@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ScoreArea : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class ScoreArea : MonoBehaviour
     {
         if (otherCollider.GetComponent<BBall>() != null)
         {
+            ScoreDisplay.IncreaseScore();
             effectObject.SetActive(true);
         }
 
